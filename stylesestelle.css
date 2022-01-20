@@ -1,0 +1,158 @@
+
+/********* CV PAGE *******/
+
+.allan{
+    background-image: url(manetteallan.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 150px;
+}
+
+.dayane{
+    background-image: url(manettedayane.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 150px;
+}
+
+.franck{
+    background-image: url(manettefranck.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 150px;
+}
+
+.estelle{
+    background-image: url(manetteestelle.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom 20px right 150px;
+}
+
+
+.section_cv .profil {
+    padding-top: 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+}
+
+.section_cv .cv_container{
+    position: relative;
+    bottom:180px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.2);
+    max-height: 500px;
+    box-shadow: 3px 3px 12px gray;
+    max-width: 800px;
+}
+
+.section_cv .cv_container p{
+    margin-top: 20px;}
+
+.section_cv h2 {
+    margin:0;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#estelle h2, #estelle h3 {
+    color:#EBC036;
+}
+
+#allan h2, #allan h3 {
+    color:#D31643;
+}
+
+#dayane h2, #dayane h3 {
+    color:#1A659E;
+}
+
+#franck h2, #franck h3 {
+    color:#22821A;
+}
+
+.section_cv .liste_parcours h3{
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration:underline;
+}
+
+.section_cv .liste_parcours{
+   text-align: left;
+   margin-top:20px;
+}
+
+.section_cv img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#trait_oblique{
+    transform: rotate(0.11turn) scale(0.7);
+    left: -5px;
+    top: -100px;
+    position: relative;}
+
+#avatar{
+    position: relative;
+    bottom:200px;
+}
+
+
+@media (min-width: 768px){
+
+    .section_cv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        }
+
+    .section_cv .cv_container{
+        position: static;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+    
+    .section_cv h2 {
+        font-size: 30px;
+    }
+    
+    .section_cv .liste_parcours h3{ 
+        font-size: 24px;
+    }
+    
+    .section_cv .cv_container{
+        background-image:none;
+    }
+    
+    #trait_oblique{
+        transform: none;
+        left: 10px;
+        top: -60px;
+        position: relative;}
+    
+    #avatar{
+        position: relative;
+        bottom:100px;
+    }
+   
+
+   
+
+
+     
+}
+
+
+
+
+
+
+    
+
